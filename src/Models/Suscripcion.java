@@ -82,6 +82,7 @@ public class Suscripcion {
         this.usuario = usuario;
         this.abonoTotal = abonoTotal;
         this.setFechaSuscripcion();
+        this.correlativoVenta = 1;
         String nombreUsuario = usuario.getNombre();
         System.out.println("Usted " + nombreUsuario + " se ha suscrito a: " + this.equipos);
         System.out.println("Usted debe pagar la suma de: " + this.valorSuscripcion);
