@@ -15,16 +15,4 @@ public class SuscripcionPrueba {
         suscripcion.setFechaSuscripcion();
         return suscripcion;
     }
-
-    public static Suscripcion crearSegundaSuscripcion(int correlativoActual){
-        int valorSuscripcion = 1;
-        int abonoTotal = 19090;
-
-        Suscripcion suscripcion = new Suscripcion();
-        suscripcion.setValorSuscripcion(valorSuscripcion);
-        suscripcion.setAbonoTotal(abonoTotal);
-        suscripcion.setCorrelativoVenta(correlativoActual);
-        suscripcion.setFechaSuscripcion();
-        return suscripcion;
-    }
 }

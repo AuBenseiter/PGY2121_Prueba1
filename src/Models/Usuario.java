@@ -67,7 +67,10 @@ public class Usuario {
 
     public void setRun(String run) {
         if (validaRut(run))
+        {
             this.run = run;
+            System.out.println("El rut ingresado es válido");
+        }
         else
             System.out.println("El run ingresado no es un run válido, por favor verifique que esté ingresado correctamente");
     }

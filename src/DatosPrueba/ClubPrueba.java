@@ -5,9 +5,9 @@ import Models.Club;
 import java.util.Date;
 
 public class ClubPrueba {
-    public static Club CrearPrimerClub()
+    public static Club PrimerClubSinErrores()
     {
-        String nombreClub = "Club 1";
+        String nombreClub = "Los gallos de temuco";
         String nombreFundador = "Pedro Fundador";
         int anioFundacion = 1990;
         String paisOrigen = "Chile";
@@ -31,9 +31,9 @@ public class ClubPrueba {
         return club;
     }
 
-    public static Club CrearSegundoClub()
+    public static Club SegundoClubSinErrores()
     {
-        String nombreClub = "Club 2";
+        String nombreClub = "Equipo la bandita de mi casa";
         String nombreFundador = "Diego Fundador";
         int anioFundacion = 2001;
         String paisOrigen = "Peru";

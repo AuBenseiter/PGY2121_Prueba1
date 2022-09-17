@@ -105,8 +105,6 @@ public class Suscripcion {
         }
         this.equipos = equipos;
         this.valorSuscripcion = valorSuscripcionTotal;
-        System.out.println("Usted está suscrito a: " + this.equipos);
-        System.out.println("Su valor de suscripción se ha actualizado, ahora debe pagar la suma de: " + this.valorSuscripcion);
     }
 
     private void ConcatenarFormatoClubes(List<Club> clubes){

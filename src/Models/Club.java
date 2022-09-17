@@ -39,6 +39,7 @@ public class Club {
         this.rolUnico = this.nombreClub.substring(0,2).toUpperCase()
                 + this.deporte.substring(0, 1).toUpperCase()
                 + (this.correlativoClub);
+        System.out.println("El rol único es: " + this.rolUnico);
     }
 
     public String getNombreClub() {
